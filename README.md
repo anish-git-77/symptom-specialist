@@ -83,15 +83,6 @@ streamlit run app.py
 
 ---
 
-## 🌐 Deploy on Streamlit Cloud (Free)
-
-1. Push this repo to GitHub
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Connect your GitHub repo
-4. Set main file as `app.py`
-5. Done — live URL in 2 minutes!
-
-> **Note:** Add `models/specialist_model.pkl` to your repo (run train locally first) so Streamlit Cloud doesn't need to retrain.
 
 ---
 
