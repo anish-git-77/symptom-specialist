@@ -3,7 +3,7 @@
 # ─────────────────────────────────────────────────────────────
 import os  
 import pandas as pd
-import numpy as np  
+import numpy as np   
 
 
 def load_kaggle_data(data_dir="data"):
