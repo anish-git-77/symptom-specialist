@@ -158,7 +158,7 @@ if analyse:
                             unsafe_allow_html=True)
 
     # ── What to tell the doctor ───────────────────────────────
-    st.markdown("---")
+    st.markdown("---")     
     st.subheader("📋 What to tell the doctor")
     keywords = [w for w in symptom_input.replace(",", " ").split() if len(w) > 3]
     kw_str   = ", ".join(dict.fromkeys(keywords[:8]))
@@ -177,7 +177,7 @@ if analyse:
             f"**`{w}`**" if len(w) > 4 else w
             for w in symptom_input.split()
         )
-        st.markdown(highlighted)
+        st.markdown(highlighted)  
 
 # ── Disclaimer ────────────────────────────────────────────────
 st.markdown("""
