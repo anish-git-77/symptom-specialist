@@ -2,13 +2,11 @@
 
 > Type your symptoms in plain English and instantly find out which medical specialist to see — with confidence scores, disease descriptions, and precautions.
 
-🔗 **[Live Demo](https://your-app.streamlit.app)** ← replace after deployment
+🔗 **[Live Demo](https://symptom-specialist.streamlit.app/)
 
 ---
 
-## 📸 Demo
 
-![Demo GIF](assets/demo.gif) ← record and add this
 
 ---
 
