@@ -40,7 +40,7 @@ def load_kaggle_data(data_dir="data"):
             severity_map[symptom] = weight
 
     # ── 3. Description map ────────────────────────────────────
-    desc_path = os.path.join(data_dir, "symptom_Description.csv")
+    desc_path = os.path.join(data_dir, "symptom_Description.csv")  
     description_map = {}
     if os.path.exists(desc_path):
         df_desc = pd.read_csv(desc_path)
