@@ -8,7 +8,7 @@ from specialist_map import SPECIALIST_EMOJI, URGENCY
 
 st.set_page_config(    
     page_title="Symptom → Specialist",
-    page_icon="🩺",
+    page_icon="🩺",   
     layout="centered",  
 )
 
