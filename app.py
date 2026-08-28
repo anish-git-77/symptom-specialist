@@ -70,7 +70,7 @@ symptom_input = st.text_area(
     "Describe your symptoms",
     placeholder="e.g.  I have a severe throbbing headache with nausea and light sensitivity...",
     height=110,
-)
+)   
 
 col_btn, col_clear = st.columns([2, 6])
 with col_btn:
