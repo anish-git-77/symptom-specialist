@@ -9,7 +9,7 @@ import numpy as np
 def load_kaggle_data(data_dir="data"):   
     """
     Reads the 4 Kaggle CSVs and returns:
-        df          — full dataframe with columns [text, disease, specialist]
+        df          — full dataframe with columns [text, disease, specialist]   
         severity_map — {symptom: severity_score}
         description_map — {disease: description_text}
         precaution_map  — {disease: [precaution1, ..., precaution4]}
